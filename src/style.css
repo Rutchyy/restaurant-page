@@ -14,12 +14,13 @@
     background-size: cover;
 }
 
-#hero, #body, #opening_hours {
+#hero, #body, #opening_hours, p {
     outline: black 2px solid;
 }
 
-#body, #opening_hours {
+#body, #opening_hours, p {
     padding: 16px;
+    overflow: scroll;
 }
 
 button {
